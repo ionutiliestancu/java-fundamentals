@@ -10,7 +10,7 @@ public class VectorHelper {
         }
     }
 
-    public static void afisareVector(int n, int[] vector, Scanner sc) {
+    public static void afisareVector(int n, int[] vector) {
         for (int i = 0; i < n; i++) {
             System.out.println("vector[" + i + "]= " + vector[i]);
         }

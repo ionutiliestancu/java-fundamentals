@@ -12,7 +12,7 @@ public class TaskVector5 {
 
     }
     public static void computeArithmetic(int [] vector){
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < vector.length; i++) {
             sum = sum + vector[i];
         }

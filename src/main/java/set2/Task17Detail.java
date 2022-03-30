@@ -30,7 +30,7 @@ public class Task17Detail {
                     matrixArray[matrixRow][matrixColumn] = matrixRow;
                     System.out.print(matrixArray[matrixRow][matrixColumn] + " ");
                 } else {
-                    System.out.print("0 ");
+                    System.out.print(matrixArray[matrixRow][matrixColumn] + " ");
                 }
             }
             System.out.println("");

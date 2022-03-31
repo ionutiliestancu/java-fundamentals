@@ -13,7 +13,7 @@ public class Task18 {
         int [][] matrice = new int[dimensiune][dimensiune];
         for ( int i=0; i<matrice.length; i++){
             for (int j=0; j<matrice[i].length; j++){
-                matrice[i][j]= i+1; // ce punem in loc de i + 1 astfel incat sa avem resultatul asteptat?
+                matrice[i][j]= (i+1)*(j+1);
             }
         }
         MatrixHelper.afisare(matrice);

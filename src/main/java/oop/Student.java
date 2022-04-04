@@ -35,4 +35,15 @@ public class Student {
         System.out.print(" integralist=" + this.integralist);
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Student: " +
+                "nume='" + nume + '\'' +
+                ", prenume='" + prenume + '\'' +
+                ", varsta=" + varsta +
+                ", dataAbsolvirii=" + dataAbsolvirii +
+                ", medie=" + medie +
+                ", integralist=" + integralist;
+    }
 }

@@ -1,6 +1,7 @@
 package oop;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 public class MainDog {
 
@@ -11,6 +12,9 @@ public class MainDog {
 
         System.out.println(dog1.toString());
         System.out.println(dog2.toString());
+
+        System.out.println("Is eating time? waiting for response: ");
+        System.out.println(dog1.isEatingTime(LocalTime.of(12,10)));
 
     }
 }

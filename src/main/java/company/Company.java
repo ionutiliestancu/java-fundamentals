@@ -1,5 +1,7 @@
 package company;
 
+import java.util.Arrays;
+
 public class Company {
 
     private String name;
@@ -27,5 +29,13 @@ public class Company {
 
     public Employee[] getEmployees(){
         return  this.employees; // aceste metode trebuie sa returneze obiectul respectiv
+    }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "name='" + name + '\'' +
+                ", employees=" + Arrays.toString(employees) +
+                '}';
     }
 }
